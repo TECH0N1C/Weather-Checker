@@ -47,7 +47,7 @@ app.post("/", function(req, res){
             res.send();
         });
     })
-    console.log("User picked " + query + " as City");
+    console.log("User entered " + query + " as City");
 });
 
 
